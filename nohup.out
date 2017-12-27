@@ -1,0 +1,7 @@
+(node:11044) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 250 ms
+INFO  0 files generated in 287 ms
+(node:11057) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
