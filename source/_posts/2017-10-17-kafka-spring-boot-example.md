@@ -6,6 +6,7 @@ description: Spring Boot 中使用 kafka
 keywords: kafka
 tags:
   - kafka
+author: Ciwei
 date: 2017-12-23 12:30:00
 ---
 Kafka 是一种高吞吐的分布式发布订阅消息系统，能够替代传统的消息队列用于解耦合数据处理，缓存未处理消息等，同时具有更高的吞吐率，支持分区、多副本、冗余，因此被广泛用于大规模消息数据处理应用。Kafka 支持Java 及多种其它语言客户端，可与Hadoop、Storm、Spark等其它大数据工具结合使用。

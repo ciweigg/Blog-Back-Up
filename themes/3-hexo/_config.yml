@@ -16,10 +16,10 @@ link:
 
 ##########多作者模式############
 author:
-  on: false
+  on: true
   authors:
-    author1: 阿杰
-    author2: 小马哥
+    author1: Ciwei
+    author2: 如果没有你
 ##############################
 
 # 左下角自定义菜单
@@ -45,16 +45,16 @@ menu:
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com
+article_txt: 
 
 bottom_text: ©2017 Yelog
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
-reward: true
+reward: false
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -67,7 +67,7 @@ searchAll: false
 copyright: true
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
