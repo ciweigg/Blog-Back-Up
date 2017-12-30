@@ -1,0 +1,3 @@
+### 我的博客
+使用的主题是：hexo-theme-NextOne 其实就是Next主题
+地址：https://github.com/dmego/hexo-theme-NextOne

@@ -1,6 +1,6 @@
 # 你的头像url
-avatar: http://oisa91ton.bkt.clouddn.com/yumeitu1.gif
-favicon: http://oisa91ton.bkt.clouddn.com/yumeitu2.jpg
+avatar: http://oisa91ton.bkt.clouddn.com/%E5%A4%B4%E5%83%8F.jpg
+favicon: http://oisa91ton.bkt.clouddn.com/%E5%A4%B4%E5%83%8F.jpg
 
 #链接图标，链接为空则不显示
 link:
@@ -110,7 +110,7 @@ table: green_title
 # 文章列表背景图
 article_bg_img:
   on: true
-  src: http://oncj6b2vl.bkt.clouddn.com/FlSExUGfRSaqxkK5v42CpuI-tXAL.jpg
+  src: http://oisa91ton.bkt.clouddn.com/338925-106.jpg
 
 # 点击图片放大样式
 img_resize: photoSwipe
