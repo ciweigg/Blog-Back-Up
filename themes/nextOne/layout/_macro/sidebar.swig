@@ -110,10 +110,12 @@
                 </li>
               {% endfor %}
             </ul>
+	    <br>
+            {% include '../_custom/sidebar.swig' %}
           </div>
         {% endif %}
 
-        {% include '../_custom/sidebar.swig' %}
+<!--        {% include '../_custom/sidebar.swig' %}  -->
 
       </section>
 

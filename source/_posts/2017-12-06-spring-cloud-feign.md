@@ -1,9 +1,9 @@
 layout: post
 title: Spring Cloud（四）服务提供者 Eureka + 服务消费者 Feign
 categories: SpringCloud
-description: Spring Cloud（四）服务提供者 Eureka + 服务消费者 Feign
 keywords: SpringCloud
 date: 2017-12-23 11:53:21
+image: http://oisa91ton.bkt.clouddn.com/springcloud.png
 ---
 上一篇文章，讲述了如何通过RestTemplate+Ribbon去消费服务，这篇文章主要讲述如何通过Feign去消费服务。
 

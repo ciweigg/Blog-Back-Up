@@ -148,6 +148,7 @@
                 </a>
               </span>
             {% elseif theme.hypercomments_id %}
+
             <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
@@ -245,6 +246,13 @@
           <!--/noindex-->
         {% elif post.excerpt  %}
           {{ post.excerpt }}
+
+	 {% if post.image %}
+                <div class="out-img-topic">
+                         <img src={{ post.image }} class="img-topic" />
+                </div>
+        {% endif %}
+
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#more{% endif %}" rel="contents">
