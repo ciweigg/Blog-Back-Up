@@ -24,3 +24,30 @@ img.img-topic {
   float: right;
   clear: right;
 }
+// 自定义的文章置顶样式
+.post-sticky-flag {
+    font-size: inherit;
+    float: left;
+    color: rgb(0, 0, 0);
+    cursor: help;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.post-sticky-flag:hover {
+    color: #f935ea;
+}
+#top {
+    display: block;
+    text-align: center;
+    margin: -100px 50px 40px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 106px 36px 10px 36px;
+}
+@media (max-width: 767px) {
+    #top {
+        margin: -93px 15px 50px 15px;
+        padding: 96px 10px 0px 10px;
+    }
+}
