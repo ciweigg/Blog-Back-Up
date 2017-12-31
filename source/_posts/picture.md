@@ -5,6 +5,7 @@ tags:
   - picture
 type: picture
 date: 2017-07-30 14:36:00
+top: true
 ---
 动漫图片：
 {% gp 5-3 %}
