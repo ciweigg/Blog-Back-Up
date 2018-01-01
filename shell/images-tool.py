@@ -111,6 +111,17 @@ def handle_photo():
 			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/"+filename
            }
             list_info.append(new_dict)
+        elif year_month != list_info[-1]['date']:  # 不是最后的一个日期，就新建一个dict
+            new_dict = {"y": date.year, 
+			"m": date.month, 
+			"text": info, 
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/"+filename
+           }
+            list_info.append(new_dict)
+        else:  # 同一个日期
+            list_info[-1]['arr']['link'].append(filename)
+            list_info[-1]['arr']['text'].append(info)
+            list_info[-1]['arr']['type'].append('image')
     list_info.reverse()  # 翻转
     final_dict = {"info": list_info}
     with open("../source/photos/data.json","w") as fp:
