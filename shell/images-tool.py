@@ -119,9 +119,10 @@ def handle_photo():
            }
             list_info.append(new_dict)
         else:  # 同一个日期
-            list_info[-1]['arr']['link'].append(filename)
-            list_info[-1]['arr']['text'].append(info)
-            list_info[-1]['arr']['type'].append('image')
+			list_info['y'].append(date.year)
+            list_info['m'].append(date.month)
+            list_info['text'].append(info)
+            list_info['src'].append("https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/"+filename)
     list_info.reverse()  # 翻转
     final_dict = {"info": list_info}
     with open("../source/photos/data.json","w") as fp:

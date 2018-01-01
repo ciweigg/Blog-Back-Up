@@ -1,12 +1,64 @@
-[
-	"2017-07-02_黄山1.jpg",
-	"2017-07-02_黄山2.jpg",
-	"2017-07-02_黄山3.jpg",
-	"2017-07-02_黄山4.jpg",
-	"2017-07-02_黄山5.jpg",
-	"2017-08-01_chinajoy1.jpg",
-	"2017-08-01_chinajoy2.jpg",
-	"2017-08-01_chinajoy3.jpg",
-	"2017-08-01_chinajoy4.jpg",
-	"2017-08-01_chinajoy5.jpg"
-]
+{
+	"info": [
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-07-02_黄山1.jpg",
+			"y": "2017",
+			"m": "07",
+			"text": "黄山1"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-07-02_黄山2.jpg",
+			"y": "2017",
+			"m": "07",
+			"text": "黄山2"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-07-02_黄山3.jpg",
+			"y": "2017",
+			"m": "07",
+			"text": "黄山3"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-07-02_黄山4.jpg",
+			"y": "2017",
+			"m": "07",
+			"text": "黄山4"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-07-02_黄山5.jpg",
+			"y": "2017",
+			"m": "07",
+			"text": "黄山5"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-08-01_chinajoy1.jpg",
+			"y": "2017",
+			"m": "08",
+			"text": "chinajoy1"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-08-01_chinajoy2.jpg",
+			"y": "2017",
+			"m": "08",
+			"text": "chinajoy2"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-08-01_chinajoy3.jpg",
+			"y": "2017",
+			"m": "08",
+			"text": "chinajoy3"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-08-01_chinajoy4.jpg",
+			"y": "2017",
+			"m": "08",
+			"text": "chinajoy4"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-08-01_chinajoy5.jpg",
+			"y": "2017",
+			"m": "08",
+			"text": "chinajoy5"
+		}
+	]
+}
