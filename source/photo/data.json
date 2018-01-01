@@ -1,12 +1,6 @@
 {
 	"info": [
 		{
-			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-01-01_那些年青春.jpg",
-			"y": "2017",
-			"m": "01",
-			"text": "那些年青春"
-		},
-		{
 			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2017-07-02_黄山1.jpg",
 			"y": "2017",
 			"m": "07",
@@ -71,6 +65,12 @@
 			"y": "2018",
 			"m": "01",
 			"text": "新年新气象"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/ciweigg/blog-back-up/master/shell/photos/2018-01-01_那些年青春.jpg",
+			"y": "2018",
+			"m": "01",
+			"text": "那些年青春"
 		}
 	]
 }
