@@ -17,7 +17,7 @@ hexo new page photo
 ```
 ### 2.需要一个生成json的脚本：
 photo-tool.js
-./photos/ 是当前目录下的文件夹，里面存放照片的哦
+./photos/ 是当前目录下的文件夹，里面存放照片的哦（照片格式2018-01-01_照片.jpg）
 ../source/photo/data.json 是生成的json文件存放位置
 photo-tool.js脚本和photos文件夹放在一起就行了 可以放在hexo根目录
 src替换成自己存放照片的github路径
@@ -63,6 +63,8 @@ fs.readdir(path, function (err, files) {
     }(0));
 });
 ```
+>执行脚本node photo-tool.js
+
 ### 3.在github需要创建一个照片备份的仓库
 当然不一定要放在github，七牛云啊什么的都可以的
 照片使用hexo b 上传，或者直接手动上传github仓库就行
@@ -281,6 +283,7 @@ vi themes/nextOne/source/css/_custom/custom.styl
  添加：
  jquery.min.js自己百度去下载
  此处的相对路径对应主题的source
+ ```
 <link type="text/css" href="/lib/fancybox/source/jquery.fancybox.css" rel="stylesheet">
 <div class="instagram">
     <!-- <<section class="archives album">
@@ -289,6 +292,7 @@ vi themes/nextOne/source/css/_custom/custom.styl
 </div>
 <script type="text/javascript" src="/js/src/jquery.min.js"></script>
 <script type="text/javascript" src="/js/src/album.js"></script>
+```
 
 别忘了在主题的_config.yml中添加相册菜单呀
 

@@ -1,5 +1,4 @@
----
-title: photo
+title: 最初的梦想
 date: 2017-12-31 18:00:56
 ---
 <!-- <script src="/lib/fancybox/source/jquery.fancybox.js"></script> -->
