@@ -163,7 +163,7 @@ def git_operation():
     ----------
     需要安装git命令行工具，并且添加到环境变量中
     '''
-    os.system('git add --all')
+    os.system('git add -A')
     os.system('git commit -m "add photos"')
     os.system('git push -f origin master')
 
