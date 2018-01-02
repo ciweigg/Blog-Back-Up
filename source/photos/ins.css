@@ -1,6 +1,9 @@
 #post-instagram{
 	padding: 30px;
 }
+figure {
+    margin: 0;
+}
 #post-instagram .article-entry{
 	padding-right: 0;
 }
@@ -9,7 +12,12 @@
 	min-height: 500px;
 }
 .instagram img {
-	width: 100%;
+    width: 100%;
+    
+}
+.posts-expand .post-body img {
+    padding: 0;
+    border : 0;
 }
 .instagram .year {
 	font-size: 16px;
@@ -25,15 +33,14 @@
 	display: inline;
 }
 .instagram .thumb {
-    width: 25%;
-    height: auto;
-    margin: 0 30px 30px!important;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    background: #ededed;
-    outline: 1px solid #ddd;
-    padding: 0px!important;
+	width: 25%;
+	height: 0; 
+	padding-bottom: 25%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	background: #ededed;
+	outline: 1px solid #ddd;
 }
 .instagram .thumb a {
 	position: relative;
@@ -48,7 +55,8 @@
 	flex-wrap: wrap;
 	clear: both;
 	width: 100%;
-	text-align: left;
+    text-align: left;
+    padding-left: 0;
 }
 .instagram .album li{
 	list-style: none;
@@ -129,9 +137,8 @@
 
 @media screen and (max-width:600px) {
 	.instagram .thumb {
-		width: 32%;
+		width: 50%;
 		padding-bottom: 50%;
-	        margin: 0!important;
 	}
 	.instagram .album li {
 		width: 100%;
