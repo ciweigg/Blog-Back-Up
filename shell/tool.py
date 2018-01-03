@@ -27,6 +27,7 @@ def directory_exists(directory):
 def list_img_file(directory):
     """列出目录下所有文件，并筛选出图片文件列表返回"""
     old_list = os.listdir(directory)
+    old_list.sort()
     # print old_list
     new_list = []
     for filename in old_list:
