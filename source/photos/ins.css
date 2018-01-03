@@ -16,8 +16,9 @@ figure {
     
 }
 .posts-expand .post-body img {
-    padding: 0;
-    border : 0;
+    padding: 1px;
+    border : 5px solid #fafcff;
+    background: #fff;
 }
 .instagram .year {
 	font-size: 16px;
@@ -41,6 +42,7 @@ figure {
 	text-align: center;
 	background: #ededed;
 	outline: 1px solid #ddd;
+	margin: 0 15px 15px!important;
 }
 .instagram .thumb a {
 	position: relative;
@@ -137,8 +139,9 @@ figure {
 
 @media screen and (max-width:600px) {
 	.instagram .thumb {
-		width: 50%;
-		padding-bottom: 50%;
+		width: 30%;
+		padding-bottom: 30%;
+		margin: 0 1px 1px!important;
 	}
 	.instagram .album li {
 		width: 100%;
