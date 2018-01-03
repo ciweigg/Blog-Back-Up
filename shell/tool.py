@@ -103,7 +103,7 @@ def handle_photo():
         date_str, info = filename.split("_")
         info, _ = info.split(".")
         date = datetime.strptime(date_str, "%Y-%m-%d")
-        year_month = date_str[0:4]            
+        year_month = date_str[0:7]            
         if i == 0:  # 处理第一个文件
             new_dict = {"date": year_month, "arr":{'year': date.year,
                                                                    'month': date.month,
@@ -163,7 +163,7 @@ def git_operation():
     ----------
     需要安装git命令行工具，并且添加到环境变量中
     '''
-    os.system('git add -A')
+    os.system('git add --all')
     os.system('git commit -m "add photos"')
     os.system('git push -f origin master')
 
