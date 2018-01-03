@@ -7,7 +7,7 @@ categories:
 date: 2017-12-30 18:19:00
 ---
 ### 1. 添加High一下
-打开博客根目录 \themes\next\layout\_partials\header.swig ，在
+打开博客根目录 /themes/next/layout/_partials/header.swig ，在
 ul标签之间加入以下代码：
 <!-- more -->
 ```
@@ -151,15 +151,15 @@ ul标签之间加入以下代码：
     ```
     
 ### 2. 鼠标点击小红心的设置
-1. 将 love.js 文件添加到 \themes\next\source\js\src 文件目录下。
-2. 找到 \themes\next\layout\_layout.swing 文件， 在文件的后面，</body> 标签之前 添加以下代码：
+1. 将 love.js 文件添加到 /themes/next/source/js/src 文件目录下。
+2. 找到 /themes/next/layout/_layout.swing 文件， 在文件的后面，</body> 标签之前 添加以下代码：
 ```
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
 ```
 ### 3. 背景的设置
-1.将 particle.js 文件添加到 \themes\next\source\js\src 文件目录下。
-2.找到 \themes\next\layout\_layout.swing 文件， 在文件的后面，</body>标签之前 添加以下代码：
+1.将 particle.js 文件添加到 /themes/next/source/js/src 文件目录下。
+2.找到 /themes/next/layout/_layout.swing 文件， 在文件的后面，</body>标签之前 添加以下代码：
 ```
 <!-- 背景动画 -->
 <script type="text/javascript" src="/js/src/particle.js"></script>

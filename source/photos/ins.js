@@ -134,6 +134,8 @@
         <ul class="img-box-ul">' + liTmpl + '</ul>\
         </section>';
       }
+	ulTmpl='<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=399366904&auto=0&height=66"></iframe>'+ulTmpl;
+	$(ulTmpl).appendTo($(".instagram"));
       document.querySelector('.instagram').innerHTML = '<div class="photos" itemscope="" itemtype="http://schema.org/ImageGallery">' + ulTmpl + '</div>';     
       createVideoIncon();
       _view2.default.init();
