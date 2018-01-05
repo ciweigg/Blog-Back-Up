@@ -1,12 +1,10 @@
 title: hexo next主题添加photoswipe类型相册
-author: Ciwei
-tags:
-  - hexo
-categories:
-  - hexo
 date: 2018-01-02 17:12:00
+tags: [hexo]
+categories: [hexo]
 ---
 next主题一定是要我github的next主题
+每个精彩的镜头，需要用照片来描绘，所以这个主题有照片功能啦
 <!--more-->
 其实就是github上搜索hexo-theme-next这个人的next主题
 ![paste image](http://oisa91ton.bkt.clouddn.com/1514884431453sqwkgwdz.png?imageslim)
