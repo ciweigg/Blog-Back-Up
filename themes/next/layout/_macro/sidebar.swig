@@ -8,6 +8,8 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+  <div id="sidebar-dimmer"></div>
+  <div class="sidebar-inner">
     {% if theme.sidebar.onmobile %}
       <div id="sidebar-dimmer"></div>
     {% endif %}
