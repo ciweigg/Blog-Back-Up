@@ -10,6 +10,7 @@ categories: [微信支付]
 两行代码解决微信支付提供的各种服务, 开箱即用, 可扩展性超强(只需根据服务的上下行协议定义协议类后, 放入工厂即可获取调用结果).
 <!--more-->
 ### 最新发布
+
 ```
 <dependency>
     <groupId>net.arccode</groupId>
@@ -41,7 +42,8 @@ LOG.info(JSON.toJSONString(response));
 // TODO 开发人员根据 response中的属性值处理业务逻辑, 此处可完美嵌入业务层(小型系统)或服务层(大型系统)
 ```
 
-###初始化 sdk
+
+### 初始化 sdk
 
 ```
 private WXPayClient wxPayClient;
@@ -64,10 +66,12 @@ private WXPayClient wxPayClient;
         wxPayClient = new WXPayClient(appId, mchId, key);
         wxPayVIPClient = new WXPayClient(appId, mchId, key, certPwd, certPath);
     }
-```    
+```
+
 
 #### 公众号支付
 官方文档详见: https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_1
+
 
 ```
 String nonceStr = SDKUtils.genRandomStringByLength(32);
@@ -88,8 +92,8 @@ String nonceStr = SDKUtils.genRandomStringByLength(32);
 UnifiedOrderRequest request = new UnifiedOrderRequest("donate-899",SDKUtils.genOutTradeNo(),
                 1, "192.168.1.1", asyncNotifyUrl, "APP", nonceStr);
 UnifiedOrderResponse response = wxPayClient.execute(request);
-Asserrt.assertNotNull(response);
-LOG.info(JSON.toJSONString(response);
+Assert.assertNotNull(response);
+LOG.info(JSON.toJSONString(response));
 // TODO 开发人员根据 response中的属性值处理业务逻辑, 此处可完美嵌入业务层(小型系统)或服务层(大型系统)
 ```
 
@@ -120,7 +124,7 @@ LOG.info(JSON.toJSONString(response));
 // TODO 开发人员根据 response中的属性值处理业务逻辑, 此处可完美嵌入业务层(小型系统)或服务层(大型系统)
 ```
 
-####支付异步通知解析
+#### 支付异步通知解析
 官方文档详见: https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_7
 
 ```
