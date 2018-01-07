@@ -106,4 +106,4 @@ deploy:
 image_stream:
   jquery: false
   jquery_lazyload: //cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
-#  img_placeholder: 
+#  img_placeholder:

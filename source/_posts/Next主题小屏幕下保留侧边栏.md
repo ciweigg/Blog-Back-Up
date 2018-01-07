@@ -9,7 +9,17 @@ categories: [hexo]
 
 这一步参考上面提到的那篇教程。
 
-启用侧边栏
+### 启用侧边栏有两种方法：
+
+#### 1.针对next主题：
+默认已经实现了，改成true就行
+themes/next/_config.yml
+```
+# Enable sidebar on narrow view (only for Muse | Mist).
+onmobile: true
+```
+
+#### 2.针对其他主题
 打开source/css/_common/components/sidebar/sidebar.styl，删掉或注释掉
 
 ```
