@@ -152,7 +152,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: http://oisa91ton.bkt.clouddn.com/touxiang2.jpg
+avatar: http://oisa91ton.bkt.clouddn.com/tx.gif
 
 # Table Of Contents in the Sidebar
 toc:
@@ -269,7 +269,7 @@ android_chrome_color: "#222"
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: http://oisa91ton.bkt.clouddn.com/touxiang2.jpg
+  image: http://oisa91ton.bkt.clouddn.com/tx2.gif
 
 # Code Highlight theme
 # Available value:
