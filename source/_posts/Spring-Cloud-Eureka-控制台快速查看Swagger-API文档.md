@@ -1,7 +1,7 @@
 title: Spring Cloud Eureka 控制台快速查看Swagger API文档
 date: 2017-12-22 13:35:00
 tags: [swagger]
-categories: [SpringCloud]
+categories: [SpringCloud,swagger]
 ---
 在服务比较多的情况下，突然想看某个服务的API 文档
 
