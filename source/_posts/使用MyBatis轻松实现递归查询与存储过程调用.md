@@ -1,7 +1,9 @@
 title: 使用MyBatis轻松实现递归查询与存储过程调用
-date: 2018-01-23 14:03:31
-tags: [Mybatis]
-categories: [Mybatis]
+tags:
+  - Mybatis
+categories:
+  - Mybatis
+date: 2018-01-23 14:03:00
 ---
 ### 递归调用
 由于部门的层级不可控，因此如果我想要获取所有部门的完整json的话，就要采用递归调用，使用Java代码处理递归有点low，刚好MyBatis的ResultMap中的collection可以很方便的解决这个问题，核心代码如下：
