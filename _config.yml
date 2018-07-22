@@ -80,15 +80,15 @@ search:
   path: search.xml
   field: post
 admin:
-  username: admin
-  password_hash: $2a$10$IGhY78KeDT1NjOI/xr.gfewYZtkgk652.ZojeuCDY/MgdUmddUQI6
+  username: 
+  password_hash: 
   secret: a secret something
   qiniuCfg:
     imageslim: true  # 启动图片瘦身，仅华东区bucket可以使用
-    AccessKey: x0Wa4J0QRobQEl0xw6qXrJlQQqpTcidMCX4Rja9o
-    SecretKey: 8a_ITonRJC2zimjiyzqhUiZRfh2Olt6priuychH0
-    BucketName: ciwei
-    bucketHost: oisa91ton.bkt.clouddn.com
+    AccessKey: 
+    SecretKey: 
+    BucketName: 
+    bucketHost: 
 # Security
 ##
 encrypt:
